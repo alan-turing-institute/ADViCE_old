@@ -2,7 +2,7 @@
 # Learn more at https://jupyterbook.org/customize/config.html
 
 title: ADViCE Knowledge Base
-author: The Alan Turing Institute
+author: The Alan Turing Institute, Digital Catapult, Energy Systems Catapult
 logo: logo.png
 
 # Force re-execution of notebooks on each build.
