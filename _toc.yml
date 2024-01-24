@@ -17,16 +17,14 @@ parts:
   chapters:
   - file: working-groups/about
     title: About
-    sections:
-    - file: working-groups/manufacturing-and-built-environment
-      title: Manufacturing and Built Environment
+  - file: working-groups/manufacturing-and-built-environment
+    title: Manufacturing and Built Environment
 - caption: Webinars
   chapters:
   - file: webinars/about
     title: About
-    sections:
-    - file: webinars/minimising-methane-in-agriculture
-      title: Minimising Methane in Agriculture
+  - file: webinars/minimising-methane-in-agriculture
+    title: Minimising Methane in Agriculture
 - caption: Challenges
   chapters:
   - file: challenges/about
@@ -46,10 +44,9 @@ parts:
 - caption: Community Guidelines
   chapters:
   - file: community-guidelines/about
-    title: about
-    sections:
-    - file: community-guidelines/code-of-conduct
-      title: Code of Conduct
-    - file: community-guidelines/how-to-contribute
-      title: How to Contribute
+    title: About
+  - file: community-guidelines/code-of-conduct
+    title: Code of Conduct
+  - file: community-guidelines/how-to-contribute
+    title: How to Contribute
 
