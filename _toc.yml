@@ -41,7 +41,7 @@ parts:
     title: About
 - caption: Forum
   chapters:
-  - file: forum/about
+  - file: advice-forum/about
     title: ADViCE Forum
 - caption: Community Guidelines
   chapters:
