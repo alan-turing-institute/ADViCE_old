@@ -1,5 +1,5 @@
-  -----------------------------------------------
-  **ADViCE: AI for Decarbonisation Challenges**
+ 
+  # **ADViCE: AI for Decarbonisation Challenges**
   -----------------------------------------------
 
   --------------------------------
