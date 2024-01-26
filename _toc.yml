@@ -11,7 +11,9 @@ parts:
   - file: resources/industry-reports
     title: Industry Reports
     sections:
-    - file: resources/ai-decarb-ecosystem
+    - file: resources/advice-challenges/advice-challenges
+      title: "ADViCE: AI for Decarbonisation Challenges"
+    - file: resources/ai-decarb-ecosystem/ai-decarb-ecosystem
       title: AI for Decarbonisation Ecosystem
 - caption: Working Groups
   chapters:
