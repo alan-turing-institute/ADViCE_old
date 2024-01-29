@@ -51,4 +51,6 @@ parts:
     title: Code of Conduct
   - file: community-guidelines/how-to-contribute
     title: How to Contribute
+  - file: community-guidelines/LICENSE
+    title: License
 
