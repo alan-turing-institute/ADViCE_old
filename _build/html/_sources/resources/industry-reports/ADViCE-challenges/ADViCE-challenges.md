@@ -1,15 +1,10 @@
- 
-  # **ADViCE: AI for Decarbonisation Challenges**
-  -----------------------------------------------
+# ADViCE: AI for Decarbonisation Challenges
 
-  --------------------------------
   Dr Stephen Haben and Sam Young
-  --------------------------------
 
-  -------------------
   **December 2023**
-  -------------------
-**Contents**
+
+## Contents
 
 [1. Executive Summary](#executive-summary)  
 [2. Introduction](#introduction)  
@@ -29,8 +24,8 @@
 &nbsp;&nbsp;&nbsp;&nbsp;[5.6. Optimising Soil Management (GC6)](#optimising-soil-management-gc6)  
 &nbsp;&nbsp;&nbsp;&nbsp;[5.7. Minimising Methane in Agriculture (GC7)](#minimising-methane-in-agriculture-gc7)  
 [6. Next Steps](#next-steps)  
-[7. Appendix: Challenges Longlist](#appendix-challenges-longlist)
-&nbsp;&nbsp;&nbsp;&nbsp;[7.1 Energy Challenges](#energy-challenges-longlist)  
+[7. Appendix: Challenges Longlist](#appendix-challenges-longlist)      
+&nbsp;&nbsp;&nbsp;&nbsp;[7.1 Energy Challenges Longlist](#energy-challenges-longlist)  
 &nbsp;&nbsp;&nbsp;&nbsp;[7.2. Manufacturing Challenges](#manufacturing-challenges)  
 &nbsp;&nbsp;&nbsp;&nbsp;[7.3. Agriculture Challenges](#agriculture-challenges-longlist)  
 &nbsp;&nbsp;&nbsp;&nbsp;[7.4. Built Environment Challenges](#built-environment-challenges)  
@@ -39,7 +34,7 @@
 [9. Appendix: Challenge Selection Resources](#appendix-challenge-selection-resources)  
 [10. Acknowledgements](#acknowledgements)
 
-
+(executive-summary)=
 # Executive Summary
 
 As outlined in the ADViCE ecosystem report, many current applications of
@@ -103,7 +98,7 @@ us about how we can help you make that happen!
 
 You can join in the discussion of the challenges and how to solve them
 via the ADViCE working groups and webinars.
-
+(introduction)=
 # Introduction 
 
 This report is part of *Stream 1* of UK Government's [*Artificial
@@ -142,7 +137,7 @@ This and the Ecosystem report provide the foundation for the continued
 activities of the ADViCE programme which will include engaging the AI
 and decarbonisation communities to tackle the challenges presented and
 help support those who are working on them.
-
+(ais-role-in-decarbonisation)=
 # AI's role in Decarbonisation
 
 This section briefly describes the importance of identifying major
@@ -212,6 +207,7 @@ those in the AI community to apply their skills, techniques and insights
 to help to drive these decarbonisation challenges forward and make a
 real, impactful difference.
 
+(challenges-selection-methodology)=
 # Challenges Selection Methodology
 
 This section describes the methodology for selecting challenges,
@@ -224,6 +220,7 @@ including:
 -   the relative attention these challenges have received from the AI
     community to date.
 
+(sectors)=
 ## Sectors
 
 The focus of ADViCE is the following four main sectors: 
@@ -244,6 +241,7 @@ Ecosystem report. The choice of these industries is specifically due to
 the large contribution they make to greenhouse gas emissions in the UK,
 and the difficulty of decarbonising them.
 
+(identifying-challenges)=
 ## Identifying Challenges
 
 For AI researchers and developers, a major barrier to identifying
@@ -272,6 +270,7 @@ Catapult's [CoPED Catalogue](https://coped.energy/)); and academic
 literature highlighting the research that has already been applied. A
 list of many of the resources used can be found in [Appendix 9](#appendix-challenge-selection-resources).
 
+(phases)=
 ## Phases
 
 When categorising the challenges, they were typically related on one of
@@ -304,6 +303,7 @@ practitioners to identify cross-sector opportunities where they have
 existing solutions in one of these phases, which could be applied to
 similar challenges in other sectors.
 
+(scoring-criteria)=
 ## Scoring Criteria
 
 To isolate the most important and impactful challenges we developed a
@@ -399,6 +399,7 @@ with the following high-level descriptions:
 Any challenge that scores zero in this area is not be considered and is
 not included in the long list of sub challenges in [Appendix 8](#appendix-challenges-longlist).
 
+(ai-capabilities)=
 ## AI Capabilities
 
 We have also provided information on what AI capabilities are required
@@ -449,14 +450,16 @@ These specific capabilities are listed to help AI practitioners
 determine which challenges they could quickly provide some significant
 contribution based on their skill set.
 
+(the-grand-challenges)=
 # The Grand Challenges
 
+(unlocking-domestic-decarbonisation-gc1)=
 ## Unlocking Domestic Decarbonisation (GC1) 
 
 **Summary:** Without successfully decarbonising homes and domestic
 transport there is very little chance for successfully meeting the UK' s
-Net Zero targets. Residential heating is responsible for more than [13%
-of greenhouse gas emissions each year](https://es.catapult.org.uk/guide/decarbonisation-heat/). Decarbonising homes requires
+Net Zero targets. Residential heating is responsible for more than 13%
+of greenhouse gas emissions each year [1]. Decarbonising homes requires
 changes to both heating systems and consumer behaviours in every home in
 the UK. Engaging consumers in that process, financing it, and delivering
 it at pace are all major challenges. 
@@ -466,12 +469,12 @@ it at pace are all major challenges. 
 **Detailed challenge description:** One of the most promising strategies
 for domestic decarbonisation is to electrify our heating and transport,
 through heat pumps and electric vehicles (EVs) respectively. However,
-while uptake of these technologies is accelerating [^2], [^3], they
+while uptake of these technologies is accelerating [2], [3], they
 remain a small percentage of the overall stock. For example, only 18% of
-all vehicles[^4] purchased globally in 2023 are electric, and as of
-April 2023 the UK has only installed 380,000 heat pumps[^5].
+all vehicles[4] purchased globally in 2023 are electric, and as of
+April 2023 the UK has only installed 380,000 heat pumps[5].
 
-![](./media/image6.png)
+<img src ="./media/image6.png" width="700">
 
 *Figure 1. Installations of air source heat pumps (ASHP) and ground
 source or water source heat pumps (G/WSHP) in the UK from 2010 to 2022.
@@ -486,7 +489,7 @@ what gets installed.
 
 There is a significant shortage of skills - recent figures show there
 are around 3,000 heat pump installers operating in the UK, but this
-needs to increase to at least 50,000.[^6] This is partly because
+needs to increase to at least 50,000.[6] This is partly because
 existing heating installers are used to fitting oversized boilers which
 typically do not require a detailed design of the heating system --
 unlike heat pumps -- and therefore haven't developed the required
@@ -495,7 +498,7 @@ also the limited competition means feedback loops on cost and quality
 are weak and progress is slow. This also hinders public trust, and hence
 uptake, of the technology.
 
-In addition, although most homes are suitable for heat pumps[^7], energy
+In addition, although most homes are suitable for heat pumps[7], energy
 efficiency improvements through retrofits, will significantly reduce
 running costs. The performance of retrofits can be very dependent on the
 quality of assessment, installation and commissioning, and there is
@@ -503,7 +506,7 @@ often significant variation in quality and consumer outcomes.
 
 Cost remains a barrier, in particular for heat pumps, although
 government initiatives have attempted to encourage uptake through
-incentives such as the recent Boiler Upgrade Scheme[^8]. Installation
+incentives such as the recent Boiler Upgrade Scheme[8]. Installation
 costs typically make up a significant proportion of overall costs for
 heat pumps, demonstrating the need to find solutions that reduce this
 cost component.
@@ -514,7 +517,9 @@ network to ensure they do not create network capacity issues. If
 numerous such connections are made, they risk outages on the network and
 may require expensive reinforcement (digging up the road and fitting new
 cables), network management technologies, or interventions such as
-storage or demand side response[^9].
+storage or demand side response[9].
+
+---------------
 
 **AI Driven solutions:** To accelerate uptake, AI can be used to improve
 planning, design and operation of low carbon homes.
@@ -537,6 +542,8 @@ smart appliances to reduce cost and emissions, and tracking energy
 savings and building performance. Such energy management can expand to
 help support the wider local energy network and ensure the capacity of
 cables and assets are not exceeded.
+
+--------------
 
 **Related Sub-Challenges:** Some of the core sub-challenges for this
 Grand challenge are as follows and are listed in the appendix section
@@ -561,6 +568,8 @@ Grand challenge are as follows and are listed in the appendix section
 -   Challenge 67: Measuring retrofit impact 
 
 -   Challenge 68: Standardised building performance ratings
+
+----------------
 
 **AI Capabilities:** The AI solutions for this challenge will mainly
 require the following high-level capabilities to achieve (although note
@@ -590,24 +599,29 @@ other capabilities): 
     abandoned coal mine may indicate a heat network as the optimal
     domestic heating solution.
 
+(enabling-net-zero-infrastructure-gc2)=
 ## Enabling Net Zero Infrastructure (GC2) 
 
-**Summary:** Electrification of heating and transportation, combined
+
+
+**Summary**: Electrification of heating and transportation, combined
 with increased renewables mean we need both significant expansion of our
 electricity networks and ways to manage network constraints. Delivering
 at the required scale -- and pace -- is a real challenge, with lots of
 renewable generation being held up due to delays or uncertainty in
-network connections. 
+network connections.
+ 
+
 
 **Sector:** Energy 
+
 
 **Detailed challenge description:** Net Zero cannot be achieved without
 accelerating the installation of renewable generation. To decarbonise
 the power system, 180-220 GW of grid-connected capacity will be needed
-by 2035, requiring 6 to 9 GWs to be installed per year[^10].
+by 2035, requiring 6 to 9 GWs to be installed per year[10].
 
- 
- ![totalgenerationscenario](./media/image7.png) 
+ <img src ="./media/image7.png" width="600">
  
 *Figure 2. Total electricity generation output for the \"Leading the
 Way\" future energy scenario. From National Grid, [Future Energy
@@ -615,7 +629,7 @@ Scenarios,
 2023.](https://www.nationalgrideso.com/document/283101/download)*
 
 Demand for electricity is expected to approximately double out to
-2050[^11]^,^[^12], with the significant electrification of heating and
+2050 [11], [12], with the significant electrification of heating and
 transport. It will also increase the peak demand where some applications
 coincide (e.g., the use of electrified heating on cold days will
 coincide across many homes). In addition, decarbonising industry will
@@ -628,9 +642,9 @@ infrastructure is required -- not only building new renewable
 generation, but also new transmission and distribution networks to
 service new loads and connect new generation. However, queues for
 connecting renewables at distribution level can take up to 15
-years[^13], which means renewables take much longer than necessary to be
+years[13], which means renewables take much longer than necessary to be
 available to consumers. Shortening this is critical to decarbonising our
-energy system by 2035.[^14]^,^ [^15]^,^ [^16]
+energy system by 2035.[14], [15], [16]
 
 A key component of this challenge is the uncertainty about future
 network requirements. Both the choice of energy vector (electricity,
@@ -653,6 +667,7 @@ of high levels of renewable generation, and the move to decentralised
 energy system, AI and data-driven techniques are going to be necessary
 to support and optimise decision making to enable infrastructure
 upgrades.
+
 
 **AI Driven solutions:** Identifying the best industrial or renewable
 connection requires optimisation of networks to maximise opportunities
@@ -735,6 +750,7 @@ capabilities): 
     combinations (particularly peak demand and generation). This
     requires consideration of energy and weather time series.
 
+(maximising-flexibility-in-energy-networks-gc3)=
 ## Maximising Flexibility in Energy Networks (GC3) 
 
 **Summary:** A high renewables future requires energy demand to flex so
@@ -754,8 +770,7 @@ the most of it (and balancing the system) therefore requires a
 combination of shifting demand to match generation and storing energy
 for future use.
 
-![](./media/image8.png)
-
+ <img src ="./media/image8.png" width="600">
 *Figure 3. Cost projections for different storage technologies over time.
 Taken from "Monetizing Energy Storage", Oliver Schmidt and Iain
 Staffell, OUP, 2023, used under license [CC BY-NC-ND
@@ -786,7 +801,7 @@ irregular and therefore more difficult to predict accurately.
 Achieving a flexible energy system will also require modifications to
 energy markets to provide the incentives for consumers to shift their
 demand and provide mechanisms for this to occur. In some cases, more
-decentralised energy markets and Locational Marginal Pricing (LMP)[^17],
+decentralised energy markets and Locational Marginal Pricing (LMP)[17],
 are being considered as a way to help utilise the distributed energy
 resources and help balance the network.
 
@@ -875,6 +890,7 @@ capabilities): 
     effect of the weather or climate, and what other nearby assets could
     be used to provide flexibility.   
 
+(decarbonising-manufacturing-inputs-gc4)=
 ## Decarbonising Manufacturing Inputs (GC4) 
 
 **Summary:** Many manufacturing processes rely on carbon intensive fuels
@@ -886,8 +902,8 @@ complex and costly. 
 
 **Detailed challenge description:** Manufacturing process are one of the
 main causes of greenhouse gas emissions worldwide. Heavy industry is
-responsible for nearly 40% of global CO2 emissions[^18] with the iron
-and steel industry alone responsible for 11% of global CO2[^19] with 70%
+responsible for nearly 40% of global CO2 emissions[18] with the iron
+and steel industry alone responsible for 11% of global CO2[19] with 70%
 produced by using coal. The emissions are caused by two main inputs:
 fuel sources required for the production process (e.g. see Figure 3, for
 fuel split for cement kiln heating), and feedstocks (i.e., raw
@@ -906,7 +922,7 @@ require high temperatures (several hundred degrees C), which can be
 costly or difficult to achieve with electricity. However, for
 medium-to-low temperature processes and space heating, electricity is
 often a cost-effective option (particularly with waste heat
-recovery)[^20]. Redesigning processes to use lower temperatures to
+recovery)[20]. Redesigning processes to use lower temperatures to
 enable cost-effective electrification is a potential route to
 decarbonisation.
 
@@ -915,11 +931,11 @@ is to utilise hydrogen. Zero carbon green hydrogen can be generated
 using electrolysers powered by renewables (or nuclear). This would
 require the location of new hydrogen production plants to be chosen to
 optimise green hydrogen production. Adaptation of existing processes to
-use hydrogen would also be required[^21].
+use hydrogen would also be required[21].
 
 A disadvantage of fuel switching is the significant capital expenditure
 and disruption required to transition to the new fuel source. Some of
-the equipment will need to be retrofitted or completely rebuilt[^22].
+the equipment will need to be retrofitted or completely rebuilt[22].
 
 There are a few options available to manufacturers to cut the costs of
 this transition. Onsite renewable generation could lower costs by
@@ -927,13 +943,13 @@ reducing electricity imported from the grid and avoiding network costs.
 This could be used directly or to help produce green
 hydrogen. Alternative market solutions, such as private wires, virtual
 power plants, or different energy procurement strategies can also help
-lower costs[^23].
+lower costs[23].
 
 There is another challenge with fuel switching, and that is the new
 network connections that will be required. Many methane gas pipes are
 hard to repurpose for the use of hydrogen and switching fuels will be
 dependent on where the connections are planned and when they will be
-complete[^24].  
+complete[24].  
 
 The other main contributor to manufacturing emissions is feedstock. Some
 processes, such as steel making, use high carbon materials such as coal.
@@ -943,8 +959,8 @@ releases lots of CO~2~. So decarbonising these manufacturing inputs
 requires either changing to lower (or zero) emission alternatives, or
 implementing carbon capture, utilisation and storage (CCUS) to remove
 the emissions produced. For example, coal is used as a reducing agent in
-steelmaking but hydrogen could also be used[^25] (in this case to use
-direct reduced iron, and the only output is water[^26]). Once again to
+steelmaking but hydrogen could also be used[25] (in this case to use
+direct reduced iron, and the only output is water[26]). Once again to
 decarbonise feedstock requires finding alternatives, in many cases
 hydrogen, which must be generated, with the manufacturing equipment
 upgraded or retrofitted to deal with the changing processes.  
@@ -967,7 +983,7 @@ reduce waste.  
 
 AI can also optimise and manage the production of green hydrogen,
 controlling the electrolyser to make the most efficient use of the
-intermittent renewable generation[^27]. This could also be integrated
+intermittent renewable generation[27]. This could also be integrated
 with storage systems to increase flexibility (See Grand Challenge 3).  
 
 Finally, AI could be used to improve carbon accounting and modelling.
@@ -1011,6 +1027,7 @@ capabilities): 
 -   Other Machine Learning: Regression and classification approaches can
     be important for carbon accounting.
 
+(manufacturing-process-efficiency-gc5)=
 ## Manufacturing Process Efficiency (GC5) 
 
 **Summary:** For processes that are extremely hard to fully decarbonise,
@@ -1042,9 +1059,8 @@ understood; condition monitoring will be restricted; energy management
 solutions are likely to be suboptimal; and energy inefficiencies cannot
 be identified. This is particularly likely for SME manufacturers. 
 
-![A graph of energy saving by heat recovery Description automatically
-generated](./media/image10.png)
 
+ <img src ="./media/image10.png" width="500">
 Figure 5. Example of possible energy savings estimates (gigajoules per
 tonne) in the steel production supply chain based on different heat
 recovery scenarios. Taken [from Potential for energy savings by heat
@@ -1143,6 +1159,7 @@ other capabilities): 
 -   Visual: Image processing may be used to detect equipment defects and
     process anomalies early and thus reduce wastage.  
 
+(optimising-soil-management-gc6)=
 ## Optimising Soil Management (GC6)
 
 **Summary**: In agriculture, soil is a major source of emissions -- as
@@ -1154,27 +1171,27 @@ challenge. 
 
 **Detailed challenge description:** Nitrous oxide (N~2~O) emissions from
 soil are responsible for 31% of all agricultural greenhouse gas
-emissions, behind only enteric fermentation (48%)[^28] which will be
+emissions, behind only enteric fermentation (48%)[28] which will be
 considered in challenge 7. In fact, agriculture forms 70% of all nitrous
-oxide emissions[^29] , which pound-for-pound has about 265 times the
+oxide emissions[29] , which pound-for-pound has about 265 times the
 impact on global warming than carbon dioxide and stays in the atmosphere
-for over 100 years[^30]. In agriculture these emissions primarily come
+for over 100 years[30]. In agriculture these emissions primarily come
 from applying nitrogen fertilizers to soil where the microbes convert
 the nitrogen into N~2~O. However, they are also produced from organic
-fertilizers like animal manure[^31]. 
+fertilizers like animal manure[31]. 
 
 Nitrogen fertilisers are necessary for soil health, plant growth and
 development, controlling respiration, and photosynthesis. Artificial
 fertilisers can help increase nitrogen levels and improve yields, but
 their long-term use or over-fertilization can damage the soil
-health[^32]. 
+health[32]. 
 
 Emissions are generated by microbial reactions and depend on weather
 conditions, physicochemical reactions, and proper soil management
 practices^32^. This includes adjusting the time and method of applying
 fertilisers, tillage and irrigation practices, use of biochar (materials
 carbonised over high temperatures), nutrient management and different
-crop rotations^32,^[^33].
+crop rotations^32,^[33].
 
 ![Fig6](./media/image11.png)
 
@@ -1193,24 +1210,24 @@ relationships and effects are not necessarily easy to model due to many
 interdependencies between complex variables, behaviour dependencies,
 climate effects and soil composition. Many empirical models of nitrous
 oxide emissions are relatively inaccurate and unable to predict daily
-and monthly emissions[^34].  
+and monthly emissions[34].  
 
 Soil can also play an important role in providing negative emissions
 under the right conditions and management. Carbon could be sequestered
 in agricultural soil, although there is still uncertainty about the
-amount of potential sequestration[^35].   
+amount of potential sequestration[35].   
 
 Farming and land management can help to improve carbon storage through
 reducing soil disturbance, adapting planting schedules, manging
 livestock grazing, and composting with crop residuals (remains of crops
-after harvesting)[^36]. 
+after harvesting)[36]. 
 
 However, sequestration has potential complications. If the soil is
 distributed then the captured carbon can be released and it is difficult
 to monitor and verify how much carbon has been sequestered^36^. The soil
 sequestration potential also varies according to environmental factors,
 anthropogenic effects, and soil types but is still not fully
-understood[^37].  
+understood[37].  
 
 **The AI Driven solutions** 
 
@@ -1283,6 +1300,7 @@ other capabilities): 
     and climate are essential to understanding factors influencing soil
     and crop health.
 
+(minimising-methane-in-agriculture-gc7)=
 ## Minimising Methane in Agriculture (GC7) 
 
 **Summary:** Methane emissions from livestock are a major contributor to
@@ -1298,7 +1316,7 @@ methane (CH~4~) from enteric fermentation (digestive processes) but also
 from manure. Unfortunately, methane is a very potent greenhouse gas,
 with a pound for pound impact 28 times greater than CO~2~^30^. As the
 population grows, methane emissions are set to get worse without radical
-interventions[^38].  
+interventions[38].  
 
 There are several ways that methane emissions from agriculture could be
 reduced but they can be broadly categorised into lower carbon diets and
@@ -1307,12 +1325,12 @@ reducing the emissions from animals and their manure.  
 Reductions in meat and dairy farming not only can reduce emissions but
 could help improve food security and health, especially by reducing red
 meat consumption. A reduction in the required livestock would reduce the
-amount of land use for feed[^39]. Despite the increased awareness of the
+amount of land use for feed[39]. Despite the increased awareness of the
 positive impacts of moving to a non-meat based diet there is still
 significant inertia and resistance. Some of the main challenges include
 the need for healthy and similar plant-based meat and dairy
 alternatives, but also making it easier to adopt a non-meat diet without
-losing any nutritional benefits[^40].  
+losing any nutritional benefits[40].  
 
 ![Fig7](./media/image12.svg)
 
@@ -1327,10 +1345,10 @@ To reduce emissions from animals involves reducing the methane levels
 from enteric fermentation and manure.  The intensity of emissions varies
 across different regions and production systems and is dependent on
 environmental factors, nutrition, animal types and properties, and
-farming practices[^41]. The main animal source of methane is from
+farming practices[41]. The main animal source of methane is from
 ruminants such as cows, sheep and goats, who gain nutrients through a
 plant-based diet which is fertilised through multiple stomachs before
-digestion[^42] which then creates belching, releasing gas. Some farming
+digestion[42] which then creates belching, releasing gas. Some farming
 produces more emissions than others, for example cattle breeding and
 production creates much more methane than sheep due to their size and
 numbers^42^.  
@@ -1340,7 +1358,7 @@ growth rate, animal size, energy consumption, animal health, etc. ^41,^
 ^42^. Given many traits of the animals are heritable, this suggests
 reproduction management may help slightly reduce emissions by focusing
 on breeding offspring with features that reduce emissions (e.g.,
-enhanced fecundity, reduced stress response, and better immunity)[^43].
+enhanced fecundity, reduced stress response, and better immunity)[43].
  
 
 Emissions can also be reduced for enteric fermentation by changing
@@ -1450,6 +1468,7 @@ other capabilities): 
     emissions. These can vary widely depending on the location and
     climate of the farmland. 
 
+(next-steps)=
 # Next Steps
 
 This report has presented grand challenges where artificial intelligence
@@ -1510,6 +1529,7 @@ to decarbonisation-focused applications. Incentivise people to explore
 areas of the grand challenges that are likely to address systemic
 blockers to decarbonisation.
 
+(appendix-challenges-longlist)=
 # Appendix: Challenges Longlist
 
 This appendix describes a longlist of sub-challenges from
@@ -1520,6 +1540,7 @@ interactive online list of these sub challenges which has
 further information on the scoring in terms of impact, AI
 suitability and novelty and can be found [here](https://es-catapult.github.io/advice-challenge/).
 
+(energy-challenges-longlist)=
 ## Energy Challenges Longlist
 
 ### Design & Planning  
@@ -2232,7 +2253,8 @@ extremely common, but they may not have major decarbonisation benefits. 
     threats. Active security controls will be needed to improve
     resilience and robustness and feed into security decisions. 
 
-    ## Manufacturing Challenges 
+(manufacturing-challenges)=
+## Manufacturing Challenges 
 
 This section details some of the decarbonisation challenges in the
 manufacturing sector. These challenges also have planning, operational
@@ -2455,7 +2477,8 @@ challenges in the area of maintenance which can help decarbonisation: 
     and combining alternative data sources to estimate, track and reduce
     emissions and the contributions from the various components. 
 
-    ## Agriculture Challenges Longlist
+(agriculture-challenges-longlist)=
+## Agriculture Challenges Longlist
 
 This section details some of the decarbonisation challenges in the
 agriculture sector. These challenges also have planning, operational and
@@ -2570,7 +2593,8 @@ maintenance and health management challenges in agriculture: 
     information and marketing to be more effectively personalised for
     different consumers to help them transition to a lower carbon diet. 
 
-    ## Built Environment Challenges 
+(built-environment-challenges)=
+## Built Environment Challenges 
 
 This section details some of the decarbonisation challenges in the built
 environment sector. Many of these overlap significantly with the Energy
@@ -2680,7 +2704,8 @@ network. Some of the main challenges in this area are as follows: 
     heat transfer, effects of weather) via analysis of actual energy
     demand.  
 
-    ## General Challenges
+(general-challenges)=
+## General Challenges
 
 There were several reoccurring challenges which covered problems within
 more than one individual challenge or were more general than any
@@ -2726,6 +2751,7 @@ D.  **Estimating unobserved data:** Most potential applications of AI
     meta-learning could also play a key role in helping to fill in the
     gaps for simulation and modelling purposes.  
 
+(appendix-challenge-cards)=
 # Appendix: Challenge Cards
 
 Decarbonisation challenges can be explored more visually using the
@@ -2768,13 +2794,13 @@ The (up to maximum 3) symbols under the phase correspond to the corresponding AI
 | ![Fig27](./media/image27.png)  | Other Machine Learning |
 
 
-
+(appendix-challenge-selection-resources)=
 # Appendix: Challenge Selection Resources
 
 The following databases, white papers and reports were used to identify
 and find challenges for the energy sector.
 
-## Databases {#databases .list-paragraph}
+## Databases
 
 The following databases and lists where used to source projects from
 previous innovation projects. These helped to develop the long list of
@@ -2920,6 +2946,7 @@ the bottom up and top-down approaches.
     Accessed 28/11/2023. Available
     [here](https://uk.mathworks.com/campaigns/offers/next/ai-for-electrical-technologies-white-paper.html).
 
+(acknowledgements)=
 # Acknowledgements
 
 The authors of this report would like to thank the following for their
@@ -2934,6 +2961,196 @@ Pease, Will Rowe, Greg Johnston, Connor Galbraith, Fabio Giunta, David
 Pugh, Richard Dobson, Nick Winser, Victoria Williams, Rachel Hugonin,
 Tian Coulsting, Richard Waine, Charmalee Jayamaha, Matthew Joss, Daniel
 Murrant.
+
+# References
+
+[1]: [A Guide to Decarbonisation of
+    Heat](https://es.catapult.org.uk/guide/decarbonisation-heat/),
+    Energy Systems Catapult, 2023.
+
+[2]: [EV Market Stats
+    2023](https://www.zap-map.com/ev-stats/ev-market), Zapmap, 2023.
+
+[3]: [Heat Pump Investment
+    Roadmap](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1166439/heat-pumps-investment-roadmap.pdf),
+    UK Government, 2023.
+
+[4]: [Electric car statistics -- EV market insights
+    2023](https://www.webuyanycar.com/about-us/press-centre/ev-statistics/),
+    webuyanycar, 2023.
+
+[5]: [Which Countries Are Winning the European Heat Pump
+    Race?](https://www.theecoexperts.co.uk/heat-pumps/top-countries) The
+    Eco Experts, 2023.
+
+[6]: [Decarbonisation requires a holistic approach to skills and
+    regulation](https://es.catapult.org.uk/insight/decarbonisation-requires-a-holistic-approach-to-skills-and-regulation-rob-hargraves),
+    Energy Systems Catapult, 2023.
+
+[7]: [All housing types are suitable for heat pumps, finds
+    Electrification of Heat
+    Project](https://es.catapult.org.uk/news/electrification-of-heat-trial-finds-heat-pumps-suitable-for-all-housing-types/),
+    Energy Systems Catapult, 2023.
+
+[8]: [Boiler Upgrade
+    Scheme](https://www.gov.uk/apply-boiler-upgrade-scheme), UK
+    Government, 2023.
+
+[9]: [Demand Side Response: Putting consumers in the driving
+    seat](https://es.catapult.org.uk/report/demand-side-response-putting-consumers-in-the-driving-seat/),
+    Energy Systems Catapult.
+
+[10]: [Building a GB electricity network ready for net
+    zero](https://www.regen.co.uk/wp-content/uploads/Building-a-GB-electricity-network-ready-for-net-zero.pdf),
+    Regen, 2023.
+
+[11]: [The Sixth Carbon Budget: Electricity
+    generation](https://www.theccc.org.uk/wp-content/uploads/2020/12/Sector-summary-Electricity-generation.pdf),
+    Climate Change Committee, 2020.
+
+[12]: [Innovating to Net Zero: UK
+    Report](https://es.catapult.org.uk/report/innovating-to-net-zero/),
+    Energy Systems Catapult, 2021.
+
+[13]: [MPs call for grid improvements and affordable household loads so
+    more can join the solar
+    revolution](https://committees.parliament.uk/committee/62/environmental-audit-committee/news/195090/mps-call-for-grid-improvements-and-affordable-household-loans-so-more-can-join-the-solar-revolution/),
+    UK Parliament, Committees, 2023.
+
+[14]: [Decarbonisation of the power
+    sector](https://committees.parliament.uk/publications/39325/documents/193081/default/),
+    House of Commons, Business, Energy and Industrial Strategy
+    Committee, 2023.
+
+[15]: [Accelerating electricity transmission network
+    deployment](https://www.gov.uk/government/publications/accelerating-electricity-transmission-network-deployment-electricity-network-commissioners-recommendations):
+    Electricity Networks Commissioner's recommendations, Nick Winser,
+    Department for Energy Security and Net Zero, 202.
+
+[16]: [Electricity Network Commissioner
+    report](https://es.catapult.org.uk/report/electricity-networks-commissioner-report/),
+    Energy Systems Catapult, 2023.
+
+[17]: [Locational pricing can be the foundation of a Net Zero
+    electricity
+    system](https://es.catapult.org.uk/news/locational-pricing-can-be-the-foundation-of-a-net-zero-electricity-system-finds-new-study/),
+    finds new study, Energy Systems Catapult, 2022.
+
+[18]: [The challenge of decarbonizing heavy
+    industry,](https://www.brookings.edu/articles/the-challenge-of-decarbonizing-heavy-industry/)
+    Brookings, 2021.
+
+[19]: [These 553 steel plants are responsible for 9% of global CO2
+    emissions](https://www.carbonbrief.org/guest-post-these-553-steel-plants-are-responsible-for-9-of-global-co2-emissions/),
+    Carbon Brief, 2021.
+
+[20]: [Decarbonising Manufacturing: Challenges and
+    Opportunities](https://www.makeuk.org/insights/reports/decarbonising-manufacturing-challenges-and-opportunities),
+    Make UK, 2022.
+
+[21]: [Project to decarbonise cement production with nuclear hydrogen
+    receives funding
+    boost](https://www.newcivilengineer.com/latest/project-to-decarbonise-cement-production-with-nuclear-hydrogen-receives-funding-boost-15-09-2023/),
+    New Civil Engineer, 2023.
+
+[22]: [Decarbonization challenge for
+    steel,](https://www.mckinsey.com/industries/metals-and-mining/our-insights/decarbonization-challenge-for-steel)
+    McKinsey, 2020.
+
+[23]: [Decarbonizing primary steel production: Techno-economic
+    assessment of a hydrogen based green steel production plant in
+    Norway](https://www.sciencedirect.com/science/article/pii/S0959652622009659),
+    Bhaskar et al., Journal of Cleaner Production, 2022.
+
+[24]: [Britain's Hydrogen Network
+    Plan](https://www.energynetworks.org/assets/images/FINAL%20Britain%27s%20Hydrogen%20Network%20Plan.pdf?1699374957),
+    ENA, 2021.
+
+[25]: [Hydrogen sparks change for the future of green steel
+    production](https://www.ing.com/Newsroom/News/Hydrogen-sparks-change-for-the-future-of-green-steel-production.htm),
+    ING, 2023.
+
+[26]: [Hydrogen (H2)-based
+    ironmaking](https://worldsteel.org/wp-content/uploads/Fact-sheet-Hydrogen-H2-based-ironmaking.pdf),
+    World Steel Association, 2022.
+
+[27]: [How AI can accelerate the transition to Green
+    hydrogen](https://blog.se.com/industry/mining-metals-minerals/2023/07/12/ai-accelerating-transition-green-hydrogen/),
+    Schneider Electric, 2023.
+
+[28]: [Greenhouse gas emissions from agriculture in
+    Europe](https://www.eea.europa.eu/en/analysis/indicators/greenhouse-gas-emissions-from-agriculture),
+    European Environment Agency, 2023.
+
+[29]: [Pollutant Information: Nitrous
+    Oxide](https://naei.beis.gov.uk/overview/pollutants?pollutant_id=5),
+    National Atmospheric Emissions Inventory, 2021.
+
+[30]: [Overview of Greenhouse
+    Gases](https://www.epa.gov/ghgemissions/overview-greenhouse-gases),
+    United States Environmental Protection Agency, 2023.
+
+[31]: [Greenhouse gas
+    emissions](https://ourworldindata.org/greenhouse-gas-emissions), Our
+    World in Data, 2020.
+
+[32]: [Addressing nitrogenous gases from croplands toward low-emission
+    agriculture](https://www.nature.com/articles/s41612-022-00265-3),
+    Nature, climate and atmospheric science, S.-Y. Pan et al., 2022.
+
+[33]: [Management Strategies to Mitigate N20 Emissions in
+    Agriculture](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8949344/),
+    M.U. Hassan et al., 2022.
+
+[34]: [Machine Learning improves predictions of agricultural nitrous
+    oxide (N2O) emissions from intensively managed cropping
+    systems](https://iopscience.iop.org/article/10.1088/1748-9326/abd2f3),
+    Saha, Basso & Robertson, 2021.
+
+[35]: [How does uncertainty of soil organic carbon stock affect the
+    calculation of carbon budgets and soil carbon credits for croplands
+    in the U.S.
+    Midwest](https://www.sciencedirect.com/science/article/pii/S0016706122005614)?
+    W. Zhou, et al., 2023.
+
+[36]: [What is Soil Carbon
+    Sequestration?](https://www.american.edu/sis/centers/carbon-removal/fact-sheet-soil-carbon-sequestration.cfm)
+    American University, Washington, 2020.
+
+[37]: [The knowns, known unknowns and unknowns of sequestration of soil
+    organic
+    carbon](https://www.sciencedirect.com/science/article/abs/pii/S0167880912003635),
+    Agriculture, Ecosystems & Environment, U. Stockmann, 2013.
+
+[38]: [Methane emissions are driving climate change. Here's how to
+    reduce
+    them](https://www.unep.org/news-and-stories/story/methane-emissions-are-driving-climate-change-heres-how-reduce-them).
+    UN environment programme, 2021.
+
+[39]: [Taking action on hot air: Why agriculture is the key to reducing
+    the UK methane
+    emissions](https://blog.policy.manchester.ac.uk/sci-tech/2022/05/taking-action-on-hot-air-why-agriculture-is-the-key-to-reducing-uk-methane-emissions/),
+    Ian Plewis, University of Manchester, 2022.
+
+[40]: [Foods for Plant-Based Diets: Challenges and
+    Innovations](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7912826/),
+    Alcorta et al., Foods, 2021.
+
+[41]: [Enteric fermentation](https://www.ccacoalition.org/projects/enteric-fermentation),
+    Climate & Clean Air Coalition, 2014.
+
+[42]: [Strategies to Mitigate Enteric Methane Emissions in Ruminants: A
+    Review](https://www.mdpi.com/2071-1050/14/20/13229), V. Palangi et
+    al., Sustainability, 2022.
+
+[43]: [Tackling Climate Change Through
+    Livestock](https://www.fao.org/3/i3437e/i3437e.pdf), FAO, 2013.
+
+[44]: [Applications of artificial intelligence in anaerobic
+    co-digestion: Recent advances and
+    prospects](https://www.sciencedirect.com/science/article/abs/pii/S096085242201834X),
+    M. Khan et al., Bioresource Technology, 2023.
+
 
 # Licence/Disclaimer
 
@@ -3040,194 +3257,7 @@ different mode or format. 'You' means the natural or legal person, or
 body of persons corporate or incorporate, acquiring rights under this
 licence.
 
-![](media/image3.png){width="1.9791666666666667in"
+<!--- ![](media/image3.png){width="1.9791666666666667in"
 height="0.6458333333333334in"}![](media/image1.png){width="8.3125in"
-height="11.763194444444444in"}
+height="11.763194444444444in"} -->
 
-[^1]: [A Guide to Decarbonisation of
-    Heat](https://es.catapult.org.uk/guide/decarbonisation-heat/),
-    Energy Systems Catapult, 2023.
-
-[^2]: [EV Market Stats
-    2023](https://www.zap-map.com/ev-stats/ev-market), Zapmap, 2023.
-
-[^3]: [Heat Pump Investment
-    Roadmap](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1166439/heat-pumps-investment-roadmap.pdf),
-    UK Government, 2023.
-
-[^4]: [Electric car statistics -- EV market insights
-    2023](https://www.webuyanycar.com/about-us/press-centre/ev-statistics/),
-    webuyanycar, 2023.
-
-[^5]: [Which Countries Are Winning the European Heat Pump
-    Race?](https://www.theecoexperts.co.uk/heat-pumps/top-countries) The
-    Eco Experts, 2023.
-
-[^6]: [Decarbonisation requires a holistic approach to skills and
-    regulation](https://es.catapult.org.uk/insight/decarbonisation-requires-a-holistic-approach-to-skills-and-regulation-rob-hargraves),
-    Energy Systems Catapult, 2023.
-
-[^7]: [All housing types are suitable for heat pumps, finds
-    Electrification of Heat
-    Project](https://es.catapult.org.uk/news/electrification-of-heat-trial-finds-heat-pumps-suitable-for-all-housing-types/),
-    Energy Systems Catapult, 2023.
-
-[^8]: [Boiler Upgrade
-    Scheme](https://www.gov.uk/apply-boiler-upgrade-scheme), UK
-    Government, 2023.
-
-[^9]: [Demand Side Response: Putting consumers in the driving
-    seat](https://es.catapult.org.uk/report/demand-side-response-putting-consumers-in-the-driving-seat/),
-    Energy Systems Catapult.
-
-[^10]: [Building a GB electricity network ready for net
-    zero](https://www.regen.co.uk/wp-content/uploads/Building-a-GB-electricity-network-ready-for-net-zero.pdf),
-    Regen, 2023.
-
-[^11]: [The Sixth Carbon Budget: Electricity
-    generation](https://www.theccc.org.uk/wp-content/uploads/2020/12/Sector-summary-Electricity-generation.pdf),
-    Climate Change Committee, 2020.
-
-[^12]: [Innovating to Net Zero: UK
-    Report](https://es.catapult.org.uk/report/innovating-to-net-zero/),
-    Energy Systems Catapult, 2021.
-
-[^13]: [MPs call for grid improvements and affordable household loads so
-    more can join the solar
-    revolution](https://committees.parliament.uk/committee/62/environmental-audit-committee/news/195090/mps-call-for-grid-improvements-and-affordable-household-loans-so-more-can-join-the-solar-revolution/),
-    UK Parliament, Committees, 2023.
-
-[^14]: [Decarbonisation of the power
-    sector](https://committees.parliament.uk/publications/39325/documents/193081/default/),
-    House of Commons, Business, Energy and Industrial Strategy
-    Committee, 2023.
-
-[^15]: [Accelerating electricity transmission network
-    deployment](https://www.gov.uk/government/publications/accelerating-electricity-transmission-network-deployment-electricity-network-commissioners-recommendations):
-    Electricity Networks Commissioner's recommendations, Nick Winser,
-    Department for Energy Security and Net Zero, 202.
-
-[^16]: [Electricity Network Commissioner
-    report](https://es.catapult.org.uk/report/electricity-networks-commissioner-report/),
-    Energy Systems Catapult, 2023.
-
-[^17]: [Locational pricing can be the foundation of a Net Zero
-    electricity
-    system](https://es.catapult.org.uk/news/locational-pricing-can-be-the-foundation-of-a-net-zero-electricity-system-finds-new-study/),
-    finds new study, Energy Systems Catapult, 2022.
-
-[^18]: [The challenge of decarbonizing heavy
-    industry,](https://www.brookings.edu/articles/the-challenge-of-decarbonizing-heavy-industry/)
-    Brookings, 2021.
-
-[^19]: [These 553 steel plants are responsible for 9% of global CO2
-    emissions](https://www.carbonbrief.org/guest-post-these-553-steel-plants-are-responsible-for-9-of-global-co2-emissions/),
-    Carbon Brief, 2021.
-
-[^20]: [Decarbonising Manufacturing: Challenges and
-    Opportunities](https://www.makeuk.org/insights/reports/decarbonising-manufacturing-challenges-and-opportunities),
-    Make UK, 2022.
-
-[^21]: [Project to decarbonise cement production with nuclear hydrogen
-    receives funding
-    boost](https://www.newcivilengineer.com/latest/project-to-decarbonise-cement-production-with-nuclear-hydrogen-receives-funding-boost-15-09-2023/),
-    New Civil Engineer, 2023.
-
-[^22]: [Decarbonization challenge for
-    steel,](https://www.mckinsey.com/industries/metals-and-mining/our-insights/decarbonization-challenge-for-steel)
-    McKinsey, 2020.
-
-[^23]: [Decarbonizing primary steel production: Techno-economic
-    assessment of a hydrogen based green steel production plant in
-    Norway](https://www.sciencedirect.com/science/article/pii/S0959652622009659),
-    Bhaskar et al., Journal of Cleaner Production, 2022.
-
-[^24]: [Britain's Hydrogen Network
-    Plan](https://www.energynetworks.org/assets/images/FINAL%20Britain%27s%20Hydrogen%20Network%20Plan.pdf?1699374957),
-    ENA, 2021.
-
-[^25]: [Hydrogen sparks change for the future of green steel
-    production](https://www.ing.com/Newsroom/News/Hydrogen-sparks-change-for-the-future-of-green-steel-production.htm),
-    ING, 2023.
-
-[^26]: [Hydrogen (H2)-based
-    ironmaking](https://worldsteel.org/wp-content/uploads/Fact-sheet-Hydrogen-H2-based-ironmaking.pdf),
-    World Steel Association, 2022.
-
-[^27]: [How AI can accelerate the transition to Green
-    hydrogen](https://blog.se.com/industry/mining-metals-minerals/2023/07/12/ai-accelerating-transition-green-hydrogen/),
-    Schneider Electric, 2023.
-
-[^28]: [Greenhouse gas emissions from agriculture in
-    Europe](https://www.eea.europa.eu/en/analysis/indicators/greenhouse-gas-emissions-from-agriculture),
-    European Environment Agency, 2023.
-
-[^29]: [Pollutant Information: Nitrous
-    Oxide](https://naei.beis.gov.uk/overview/pollutants?pollutant_id=5),
-    National Atmospheric Emissions Inventory, 2021.
-
-[^30]: [Overview of Greenhouse
-    Gases](https://www.epa.gov/ghgemissions/overview-greenhouse-gases),
-    United States Environmental Protection Agency, 2023.
-
-[^31]: [Greenhouse gas
-    emissions](https://ourworldindata.org/greenhouse-gas-emissions), Our
-    World in Data, 2020.
-
-[^32]: [Addressing nitrogenous gases from croplands toward low-emission
-    agriculture](https://www.nature.com/articles/s41612-022-00265-3),
-    Nature, climate and atmospheric science, S.-Y. Pan et al., 2022.
-
-[^33]: [Management Strategies to Mitigate N20 Emissions in
-    Agriculture](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8949344/),
-    M.U. Hassan et al., 2022.
-
-[^34]: [Machine Learning improves predictions of agricultural nitrous
-    oxide (N2O) emissions from intensively managed cropping
-    systems](https://iopscience.iop.org/article/10.1088/1748-9326/abd2f3),
-    Saha, Basso & Robertson, 2021.
-
-[^35]: [How does uncertainty of soil organic carbon stock affect the
-    calculation of carbon budgets and soil carbon credits for croplands
-    in the U.S.
-    Midwest](https://www.sciencedirect.com/science/article/pii/S0016706122005614)?
-    W. Zhou, et al., 2023.
-
-[^36]: [What is Soil Carbon
-    Sequestration?](https://www.american.edu/sis/centers/carbon-removal/fact-sheet-soil-carbon-sequestration.cfm)
-    American University, Washington, 2020.
-
-[^37]: [The knowns, known unknowns and unknowns of sequestration of soil
-    organic
-    carbon](https://www.sciencedirect.com/science/article/abs/pii/S0167880912003635),
-    Agriculture, Ecosystems & Environment, U. Stockmann, 2013.
-
-[^38]: [Methane emissions are driving climate change. Here's how to
-    reduce
-    them](https://www.unep.org/news-and-stories/story/methane-emissions-are-driving-climate-change-heres-how-reduce-them).
-    UN environment programme, 2021.
-
-[^39]: [Taking action on hot air: Why agriculture is the key to reducing
-    the UK methane
-    emissions](https://blog.policy.manchester.ac.uk/sci-tech/2022/05/taking-action-on-hot-air-why-agriculture-is-the-key-to-reducing-uk-methane-emissions/),
-    Ian Plewis, University of Manchester, 2022.
-
-[^40]: [Foods for Plant-Based Diets: Challenges and
-    Innovations](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7912826/),
-    Alcorta et al., Foods, 2021.
-
-[^41]: [Enteric
-    fermentation](https://www.ccacoalition.org/projects/enteric-fermentation),
-    Climate & Clean Air Coalition, 2014.
-
-[^42]: [Strategies to Mitigate Enteric Methane Emissions in Ruminants: A
-    Review](https://www.mdpi.com/2071-1050/14/20/13229), V. Palangi et
-    al., Sustainability, 2022.
-
-[^43]: [Tackling Climate Change Through
-    Livestock](https://www.fao.org/3/i3437e/i3437e.pdf), FAO, 2013.
-
-[^44]: [Applications of artificial intelligence in anaerobic
-    co-digestion: Recent advances and
-    prospects](https://www.sciencedirect.com/science/article/abs/pii/S096085242201834X),
-    M. Khan et al., Bioresource Technology, 2023.
