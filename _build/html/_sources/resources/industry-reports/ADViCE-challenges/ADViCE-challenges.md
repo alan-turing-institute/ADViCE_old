@@ -444,7 +444,7 @@ remain a small percentage of the overall stock. For example, only 18% of
 all vehicles[4] purchased globally in 2023 are electric, and as of
 April 2023 the UK has only installed 380,000 heat pumps[5].
 
-<img src ="./media/image6.png" width="700">
+![fig1](./media/image6.png)
 
 *Figure 1. Installations of air source heat pumps (ASHP) and ground
 source or water source heat pumps (G/WSHP) in the UK from 2010 to 2022.
@@ -591,7 +591,7 @@ accelerating the installation of renewable generation. To decarbonise
 the power system, 180-220 GW of grid-connected capacity will be needed
 by 2035, requiring 6 to 9 GWs to be installed per year[10].
 
- <img src ="./media/image7.png" width="600">
+ ![fig2](./media/image7.png)
  
 *Figure 2. Total electricity generation output for the \"Leading the
 Way\" future energy scenario. From National Grid, [Future Energy
@@ -740,7 +740,7 @@ the most of it (and balancing the system) therefore requires a
 combination of shifting demand to match generation and storing energy
 for future use.
 
- <img src ="./media/image8.png" width="600">
+ ![fig3](./media/image8.png)
 *Figure 3. Cost projections for different storage technologies over time.
 Taken from "Monetizing Energy Storage", Oliver Schmidt and Iain
 Staffell, OUP, 2023, used under license [CC BY-NC-ND
@@ -1030,7 +1030,7 @@ solutions are likely to be suboptimal; and energy inefficiencies cannot
 be identified. This is particularly likely for SME manufacturers. 
 
 
- <img src ="./media/image10.png" width="500">
+ ![fig5](./media/image10.png)
 Figure 5. Example of possible energy savings estimates (gigajoules per
 tonne) in the steel production supply chain based on different heat
 recovery scenarios. Taken [from Potential for energy savings by heat
