@@ -2726,7 +2726,7 @@ D.  **Estimating unobserved data:** Most potential applications of AI
 
 Decarbonisation challenges can be explored more visually using the
 challenge cards (and their virtual equivalents which can be found
-[here](https://collaro-it.github.io/advice-challenge/). Examples of the
+[here](https://es-catapult.github.io/advice-challenge/). Examples of the
 cards are shown below.
 
 ## Challenges cards
